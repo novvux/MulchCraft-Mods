@@ -1,0 +1,21 @@
+filename = 'smsn-neoforge-1.4.5-1.21.1.jar'
+name = 'Save My Shaky Network'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'smsn-neoforge-1.4.5-1.21.1.jar'
+
+[download]
+hash = '19fc927214ccfa2dafaebdbd297e6bc730c9080b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8862254
+project-id = 1129397
+
+[[x-prismlauncher-dependencies]]
+addonId = '348521'
+type = 'OPTIONAL'

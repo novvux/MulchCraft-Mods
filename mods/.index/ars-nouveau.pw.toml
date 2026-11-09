@@ -1,0 +1,18 @@
+filename = 'ars_nouveau-1.21.1-5.13.5.jar'
+name = 'Ars Nouveau'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ars_nouveau-1.21.1-5.13.5'
+
+[download]
+hash = 'cdc946c63e1eb676f0e29e4640335c0ce68d7de3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9521184
+project-id = 401955

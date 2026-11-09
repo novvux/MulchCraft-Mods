@@ -1,0 +1,21 @@
+filename = 'bobby_reneoforged-5.2.4-0.4+mc1.21.jar'
+name = 'Bobby ReNeoForged [Unofficial Port]'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '5.2.4-0.4+mc1.21'
+
+[download]
+hash = '71fd9e9e930757c2ea77143f8119cd10f1e01b0c776af6aed190e1f480487ac50a4be4ddad13176de8e977eea3b76403456c36d8e16b21ab7d013b3a51a6eef3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YPww10NZ/versions/ohyA90nX/bobby_reneoforged-5.2.4-0.4%2Bmc1.21.jar'
+
+[update.modrinth]
+mod-id = 'YPww10NZ'
+version = 'ohyA90nX'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

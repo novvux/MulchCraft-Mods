@@ -1,0 +1,21 @@
+filename = 'Botania-Revived-1.21.1-1.0.7-NeoForge.jar'
+name = 'Botania Revived'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'BotaniaRevived-1.21.1-1.0.7-NeoForge'
+
+[download]
+hash = '45cea28403b9c4f30e242d0ac32c5b340b955b5c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9521504
+project-id = 1725641
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 'world-engine-neoforge-0.1.3.jar'
+name = 'World Engine'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'World Engine 0.1.3 - NeoForge 1.21.1'
+
+[download]
+hash = 'f10cc79f7b86b70893aa8c7bfe8418b3460ce419'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9229628
+project-id = 1671915
+
+[[x-prismlauncher-dependencies]]
+addonId = '1312371'
+type = 'REQUIRED'

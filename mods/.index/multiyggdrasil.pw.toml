@@ -1,0 +1,18 @@
+filename = 'multiyggdrasil-1.20.6-neoforge-1.1.0.jar'
+name = 'MultiYggdrasil'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.6', '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.0'
+
+[download]
+hash = '53cab02df85b5a06f8c69907c972638e31dfc7845f58f62df531f94ee20048d6cfca1ee0f3cca2dc3eb03427c8a9876b6aa75036cd325c4777bb103a5e7e9dd1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/LstvoJcB/versions/lCg8Bvue/multiyggdrasil-1.20.6-neoforge-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'LstvoJcB'
+version = 'lCg8Bvue'

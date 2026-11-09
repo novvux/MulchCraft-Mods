@@ -1,0 +1,18 @@
+filename = 'ironsable-1.2.1.jar'
+name = 'IronSable'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ironsable-1.2.1.jar'
+
+[download]
+hash = '326a119843cd31c99a4f25b62075c8dd59c88e50'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9112778
+project-id = 1625528

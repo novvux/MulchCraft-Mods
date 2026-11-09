@@ -1,0 +1,18 @@
+filename = 'create_resonant_synthesis-0.1.1.jar'
+name = 'Create: Resonant Synthesis'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'create_resonant_synthesis-0.1.1'
+
+[download]
+hash = '3c15a9de3700317b532ec013a08e67f702a1928a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9453894
+project-id = 1735075

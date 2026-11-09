@@ -1,0 +1,18 @@
+filename = 'repackagerfix-1.0.0.jar'
+name = 'Create: Factory Logistics - Re-Packager Fix'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'b0f18b2e6b995fea755f4687374bf941a589efca7f040ed9c9914446abb03169c75237b0c09832420da8b8d04016bd46f25ea05049eb768b8c7e27c086cf392c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1gg5wVwH/versions/RnhMBTU8/repackagerfix-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '1gg5wVwH'
+version = 'RnhMBTU8'

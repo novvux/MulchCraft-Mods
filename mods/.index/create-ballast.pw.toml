@@ -1,0 +1,18 @@
+filename = 'ballastmod-0.1.1.jar'
+name = 'Create: Ballast'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.1.1'
+
+[download]
+hash = '9b1aede6db9667d96f04efe0ee443d74fc56f7b1d336c73ee3d894bc31e850aae30ea816083e131e00a3be8690e99a7567bf36defed83d6772faf8c63bf18acb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/5ypXYrfG/versions/XzlV3NlT/ballastmod-0.1.1.jar'
+
+[update.modrinth]
+mod-id = '5ypXYrfG'
+version = 'XzlV3NlT'

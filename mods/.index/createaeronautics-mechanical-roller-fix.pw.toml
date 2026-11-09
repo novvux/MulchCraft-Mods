@@ -1,0 +1,25 @@
+filename = 'create_aeronautics_roller_fix-1.0.1-neoforge-1.21.1.jar'
+name = 'Create/Aeronautics Mechanical Roller Fix'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'acc03a18cf4a6cb9534a26a73ec3b798747031461fa45037acb6e720d975aab331d13c07523a8de0b0c9db1b210232ed25e724685195c65aa44f1981a869cfba'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZaFVfmQW/versions/5jd9tvy6/create_aeronautics_roller_fix-1.0.1-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'ZaFVfmQW'
+version = '5jd9tvy6'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'T9PomCSv'
+type = 'REQUIRED'

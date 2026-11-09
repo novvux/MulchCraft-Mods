@@ -1,0 +1,29 @@
+filename = 'create_flight_control-neoforge-0.8.3.jar'
+name = 'Create: Flight Control'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.8.3'
+
+[download]
+hash = '24caa63157564786d944c4a4ad2f63aacfc441bffd4a9e2b83d639412ecb633c6753cb468f114e0fc2a829aa2f18438041defb60dc68d618afa0968bd35fa6fc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IGVrnkhH/versions/FSr0O2k8/create_flight_control-neoforge-0.8.3.jar'
+
+[update.modrinth]
+mod-id = 'IGVrnkhH'
+version = 'FSr0O2k8'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'oWaK0Q19'
+type = 'REQUIRED'

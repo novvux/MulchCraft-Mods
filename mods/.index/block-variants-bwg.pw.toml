@@ -1,0 +1,29 @@
+filename = 'block_variants_bwg-1.21.1-1.0.1.jar'
+name = "Block Variants - Oh The Biomes We've Gone"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = '4a7e98dc9a428184c91a7a382698027e3ff60e0a9e036bdfd923468cdd426de9fff7e7607a1510c02c38ada9348f638dcbd689f8c8046e370f52f80a5b61f2e6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z8uhGtdB/versions/iQUSIPE4/block_variants_bwg-1.21.1-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'z8uhGtdB'
+version = 'iQUSIPE4'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'NTi7d3Xc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'mjzL9n6c'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MDff90bf'
+type = 'REQUIRED'

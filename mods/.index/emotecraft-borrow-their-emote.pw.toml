@@ -1,0 +1,29 @@
+filename = 'emotecraft-borrow-their-emote-1.0.2+1.21.1+neoforge.jar'
+name = 'Emotecraft: Borrow Their Emote (EBTE)'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2+1.21.1+neoforge'
+
+[download]
+hash = 'd608bd239ed553ea2ae6a64832b519fa2c72845739a8c5839105a96b9ba3841e63f8d8128a18568e13157036551b0e4b7a83a3329e26e4faa0eb1202a686b634'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KM1YbXvb/versions/iciUVg9D/emotecraft-borrow-their-emote-1.0.2%2B1.21.1%2Bneoforge.jar'
+
+[update.modrinth]
+mod-id = 'KM1YbXvb'
+version = 'iciUVg9D'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'ffLDUGbm'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'pZ2wrerK'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'

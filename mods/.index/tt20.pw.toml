@@ -1,0 +1,18 @@
+filename = 'tt20-0.8.5+mc1.21.1-neoforge.jar'
+name = 'TT20 (TPS Fixer)'
+side = 'server'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '0.8.5'
+
+[download]
+hash = '9780468995bf627244146bf9ed99d9cf2f7ef5991df7fa989b2dd1772e9fb40a6d585283e1743ede62d00cdc80c1e48190d554189e0d280c6af41de0a63ffd2b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YS3ZignI/versions/nZsrsAsO/tt20-0.8.5%2Bmc1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'YS3ZignI'
+version = 'nZsrsAsO'

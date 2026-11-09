@@ -1,0 +1,18 @@
+filename = 'Glaidens-Vista-improvements-1.0.6.jar'
+name = "Glaiden's Vista improvements"
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.6'
+
+[download]
+hash = '3464bf50ba927b7a06f4ca0fda6bc6c5d0a37e6588bf4d701493f374802c80810072e89fd18bb755a695c6f08461937d3b2dc5668cf4317b49f91be566e25c95'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/hQVvv1s7/versions/BW3l1EVi/Glaidens-Vista-improvements-1.0.6.jar'
+
+[update.modrinth]
+mod-id = 'hQVvv1s7'
+version = 'BW3l1EVi'
