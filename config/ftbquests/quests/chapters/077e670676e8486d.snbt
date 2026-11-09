@@ -1,0 +1,704 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "077e670676e8486d"
+	group: ""
+	id: "077E670676E8486D"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "770E9583CA4A406D"
+			size: 1.5d
+			tasks: [{
+				id: "53DA1C489F52D278"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			id: "1034DE724F5338AB"
+			optional: true
+			rewards: [{
+				id: "0C5FC39DEDAB79CA"
+				item: {
+					components: {
+						"sophisticatedcore:number_of_inventory_slots": 27
+						"sophisticatedcore:number_of_upgrade_slots": 1
+					}
+					count: 1
+					id: "sophisticatedbackpacks:backpack"
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "521FD719C56FB1DD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(comforts:sleeping_bags)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			id: "6B10084F39DDD04F"
+			tasks: [
+				{
+					id: "59F474A58FEE0C66"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(thaumaturge:vis_crystals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7B9D75AAA57D0420"
+					item: { count: 1, id: "thaumaturge:salis_mundus" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			id: "7E64C25F50DAEB56"
+			size: 1.5d
+			tasks: [{
+				count: 8L
+				id: "41F463F19CB4FA8C"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E64C25F50DAEB56"]
+			id: "15B2AD5758086FA1"
+			tasks: [
+				{
+					id: "02963A2AA7E15A39"
+					item: { count: 1, id: "create:cogwheel" }
+					type: "item"
+				}
+				{
+					id: "23EE9F78A85E8779"
+					item: { count: 1, id: "create:large_cogwheel" }
+					type: "item"
+				}
+				{
+					id: "672A6BEE2A197528"
+					item: { count: 1, id: "create:gearbox" }
+					type: "item"
+				}
+				{
+					id: "6FEC91589AF9C7DE"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6B10084F39DDD04F"]
+			icon: {
+				id: "thaumaturge:arcane_workbench"
+			}
+			id: "194AB5BCA2FC456D"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3D8B40C33D1587F5"
+					item: { count: 1, id: "thaumaturge:arcane_workbench" }
+					type: "item"
+				}
+				{
+					id: "2EF3E1749EBFD721"
+					item: { count: 1, id: "thaumaturge:thaumonomicon" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E64C25F50DAEB56"]
+			id: "49E5F54687269304"
+			tasks: [{
+				id: "70E8CDAB8294DBF8"
+				item: { count: 1, id: "create:large_water_wheel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["194AB5BCA2FC456D"]
+			id: "4059D3651C6B4F83"
+			tasks: [{
+				id: "3633C2F32C0A00F2"
+				item: { count: 1, id: "thaumaturge:thaumometer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["194AB5BCA2FC456D"]
+			hide_until_deps_complete: true
+			id: "2F64BA80C2BA2842"
+			optional: true
+			tasks: [{
+				id: "5E6ABF6F8DB07082"
+				item: { count: 1, id: "thaumaturge:arcane_workbench_charger" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["194AB5BCA2FC456D"]
+			id: "279C4DF909031B0A"
+			size: 1.5d
+			tasks: [{
+				id: "7939CC329F575479"
+				item: { count: 1, id: "thaumaturge:crucible" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7E64C25F50DAEB56"]
+			icon: {
+				id: "create:mechanical_press"
+			}
+			id: "4556E6AB5B8619F8"
+			size: 1.5d
+			tasks: [{
+				id: "55890033013B3BB7"
+				item: { count: 1, id: "create:mechanical_press" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4556E6AB5B8619F8"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "6147419F33351732"
+			tasks: [
+				{
+					id: "243BFB3A8D72483A"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "516ECB0C34022868"
+					item: { count: 1, id: "create:basin" }
+					type: "item"
+				}
+				{
+					id: "347B9A3B4F294BA4"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["279C4DF909031B0A"]
+			id: "58D4C63786E58866"
+			size: 1.0d
+			tasks: [{
+				id: "7F3252CA2F71B248"
+				item: { count: 1, id: "thaumaturge:ingot_brass" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["279C4DF909031B0A"]
+			icon: {
+				id: "thaumaturge:smelter_basic"
+			}
+			id: "4EAF3EF5587CB404"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6F78D19D720AB298"
+					item: { count: 1, id: "thaumaturge:smelter_basic" }
+					type: "item"
+				}
+				{
+					id: "195B67381940BFE9"
+					item: { count: 1, id: "thaumaturge:alembic" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EAF3EF5587CB404"]
+			hide_until_deps_complete: true
+			id: "7325786037FBBC8F"
+			optional: true
+			tasks: [{
+				count: 64L
+				id: "40864AA9E77BB73E"
+				item: { count: 1, id: "thaumaturge:jar_normal" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["194AB5BCA2FC456D"]
+			id: "315DBC42F06E875B"
+			tasks: [
+				{
+					count: 2L
+					id: "252990422DB60C5C"
+					item: { count: 1, id: "thaumaturge:table_wood" }
+					type: "item"
+				}
+				{
+					id: "67AE572E5564EB5C"
+					item: { count: 1, id: "thaumaturge:scribing_tools" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4EAF3EF5587CB404"]
+			hide_until_deps_complete: true
+			id: "3C81AFCCC6E854CC"
+			tasks: [{
+				id: "50B625A52783DF09"
+				item: { count: 1, id: "thaumaturge:tube" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["279C4DF909031B0A"]
+			id: "1BA6DC5E1B1181B0"
+			tasks: [{
+				id: "25572E7873E2011E"
+				item: { count: 1, id: "thaumaturge:ingot_thaumium" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EAF3EF5587CB404"]
+			id: "5A5557A12C740CAE"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "43233EC135690D5E"
+				item: { components: { "thaumaturge:aspects": [{ amount: 10, aspect: "thaumaturge:praecantatio" }] }, count: 1, id: "thaumaturge:phial" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A5557A12C740CAE"]
+			id: "1746F0987FB47D4D"
+			tasks: [{
+				id: "77A93FAB8B5FC91C"
+				item: { count: 1, id: "botania:pure_daisy" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4556E6AB5B8619F8"]
+			id: "504734E875FF2655"
+			tasks: [{
+				id: "6B7588D4BEC28E7D"
+				item: { count: 1, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			id: "571BBA1A63A452A4"
+			tasks: [{
+				id: "6ED512F05688BC98"
+				item: { count: 1, id: "enigmaticlegacyplus:cursed_ring" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			icon: {
+				id: "malum:crude_scythe"
+			}
+			id: "36AEE910ECFBE2C6"
+			size: 1.0d
+			tasks: [
+				{
+					id: "0D5DBC63043DB8D3"
+					item: { count: 1, id: "malum:encyclopedia_arcana" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "464839FAD2075781"
+					item: { count: 1, id: "malum:crude_scythe" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36AEE910ECFBE2C6"]
+			id: "0278FB92507CB823"
+			size: 1.5d
+			tasks: [{
+				id: "19B0A81F47581859"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			id: "275ECBF92D0C45F6"
+			optional: true
+			tasks: [{
+				id: "03C13A83B2B2CA9E"
+				item: { count: 1, id: "malum:soulwoven_pouch" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			id: "1D67C262A363E294"
+			size: 1.5d
+			tasks: [{
+				id: "1969C8D1CF992664"
+				item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			icon: {
+				id: "malum:spirit_crucible"
+			}
+			id: "7AB880048F5B2B78"
+			size: 1.0d
+			tasks: [
+				{
+					id: "4AB40CB94B06E69D"
+					item: { count: 1, id: "malum:spirit_crucible" }
+					type: "item"
+				}
+				{
+					id: "4BDBFC3B0E375029"
+					item: { count: 1, id: "malum:accelerating_inlay" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4DF7381AF866C337"
+					item: { count: 1, id: "malum:iron_impetus" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AB880048F5B2B78"]
+			hide_until_deps_complete: true
+			id: "507FF0022053C1A6"
+			tasks: [{
+				id: "0D84DCB9F1EB87CC"
+				item: { count: 1, id: "malum:spirit_catalyzer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0278FB92507CB823"
+				"2164CF151F5CCFD6"
+			]
+			id: "4403316A1AE73834"
+			size: 1.5d
+			tasks: [{
+				id: "78F1BD051C3C38BE"
+				item: { count: 1, id: "malum:hallowed_gold_ingot" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			icon: {
+				id: "malum:runic_workbench"
+			}
+			id: "6ACDF80B0AE3A038"
+			optional: true
+			tasks: [
+				{
+					id: "609AD5546C3042AC"
+					item: { count: 1, id: "malum:runic_workbench" }
+					type: "item"
+				}
+				{
+					id: "1ADCC50417933E9B"
+					item: { count: 1, id: "malum:runic_brooch" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6ACDF80B0AE3A038"]
+			hide_until_deps_complete: true
+			id: "248D97C03D9BFD8F"
+			optional: true
+			tasks: [{
+				id: "759627CAEA426F61"
+				item: { count: 1, id: "malum:rune_of_vitality" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6ACDF80B0AE3A038"]
+			hide_until_deps_complete: true
+			id: "29AFCCB42D89BA68"
+			optional: true
+			tasks: [{
+				id: "0F377DDCE3BA4B01"
+				item: { count: 1, id: "malum:rune_of_dexterity" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			id: "5DCF18A067400EF1"
+			tasks: [{
+				id: "4A0C54109F346029"
+				item: { count: 1, id: "malum:lamplighters_tongs" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			icon: {
+				id: "malum:runewood_totem_base"
+			}
+			id: "326837C144A409DE"
+			optional: true
+			tasks: [
+				{
+					id: "754A727111AD702F"
+					item: { count: 1, id: "malum:runewood_totem_base" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "03AB7AD951825D29"
+					item: { count: 1, id: "malum:runewood_log" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "27FB840D41513039"
+					item: { count: 1, id: "malum:aqueous_spirit" }
+					type: "item"
+				}
+				{
+					id: "39B894139144EBD2"
+					item: { count: 1, id: "malum:arcane_spirit" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0278FB92507CB823"]
+			hide_until_deps_complete: true
+			id: "430A386CF9ACF45A"
+			tasks: [{
+				id: "32D63A0F769F31C1"
+				item: { count: 1, id: "malum:repair_pylon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			hide_dependent_lines: true
+			id: "2164CF151F5CCFD6"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					id: "minecraft:obsidian"
+				}
+				id: "0C906E8EE42C93F1"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D67C262A363E294"]
+			id: "60BC2314C604ED07"
+			tasks: [{
+				id: "557D0945DD0949CE"
+				item: { count: 1, id: "malum:soul_stained_steel_scythe" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D67C262A363E294"]
+			id: "47F42F17D70A8735"
+			tasks: [
+				{
+					id: "390E4A45903A6503"
+					item: { count: 1, id: "malum:soul_stained_steel_helmet" }
+					type: "item"
+				}
+				{
+					id: "46B170504E6B0FE3"
+					item: { count: 1, id: "malum:soul_stained_steel_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7259C3488F03B1C1"
+					item: { count: 1, id: "malum:soul_stained_steel_leggings" }
+					type: "item"
+				}
+				{
+					id: "54A3C9A5FA69EEE9"
+					item: { count: 1, id: "malum:soul_stained_steel_boots" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D67C262A363E294"]
+			id: "00A214DF565E2089"
+			tasks: [
+				{
+					id: "5FD8D5C14368439B"
+					item: { count: 1, id: "malum:soul_stained_steel_sword" }
+					type: "item"
+				}
+				{
+					id: "5285EC59C92033B1"
+					item: { count: 1, id: "malum:soul_stained_steel_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "2ED565B6347D58EE"
+					item: { count: 1, id: "malum:soul_stained_steel_axe" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E64C25F50DAEB56"]
+			hide_until_deps_complete: true
+			id: "2172AAE0C65D8869"
+			tasks: [{
+				id: "00CCB6C88871EAE8"
+				item: { count: 1, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"58D4C63786E58866"
+				"4556E6AB5B8619F8"
+				"2164CF151F5CCFD6"
+			]
+			icon: {
+				id: "create:brass_hand"
+			}
+			id: "45E15016604647EE"
+			size: 1.5d
+			tasks: [{
+				id: "534828B63EEF2663"
+				item: { count: 1, id: "create:deployer" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45E15016604647EE"]
+			id: "5A0F4383C6D1EE5E"
+			size: 1.5d
+			tasks: [{
+				id: "25D5D587B3992BF6"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4556E6AB5B8619F8"]
+			id: "64E23966CB632429"
+			tasks: [{
+				id: "3AAB5E4C098B3B07"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+	]
+}
