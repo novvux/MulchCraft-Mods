@@ -4,19 +4,19 @@
 # Most miscellaneous feature toggles.
 features:
   # Prevents lagspikes caused by players moving into unloaded chunks.
-  prevent-moving-into-unloaded-chunks: false
+  prevent-moving-into-unloaded-chunks: true
   # The amount of seconds between auto-saves when /save-on is active.
   autosave-interval-seconds: 300
   # The fraction that decides the chance of experience orbs being able to merge with each other. (1 = 100%, 40 = 2.5%)
   # Note that just like in vanilla, experience orbs will still need to be of the same size to actually merge.
-  xp-merge-fraction: 40
+  xp-merge-fraction: 20
   # The radius in blocks that experience orbs will merge at.
-  xp-merge-radius: 0.5
+  xp-merge-radius: 2.5
   # The radius in blocks that items will merge at.
-  item-merge-radius: 0.5
+  item-merge-radius: 2.5
   lobotomize-villagers:
     # Makes villagers tick less often if they are stuck in a 1x1 space.
-    enabled: false
+    enabled: true
     # Decides the interval in between villager ticks when lobotomized.
     tick-interval: 20
 
@@ -26,7 +26,7 @@ dynamic:
   # Enables dynamic performance checks.
   enabled: true
   # The average MSPT to target.
-  target-mspt: 35
+  target-mspt: 30
   # The default values for dynamic settings.
   # If left unspecified, the maximum value will be used.
   # Note: adding view / simulation distance here will override their value in server.properties.
@@ -221,16 +221,16 @@ commands:
 # Note: while this is a very powerful feature, it can still slow down mobfarms and break very specific technical contraptions.
 activation-range:
   # Enables activation range.
-  enabled: false
+  enabled: true
   # Briefly ticks entities newly added to the world for 10 seconds (includes both spawning and loading).
   # This gives them a chance to properly immunize when they are spawned if they should be. Can be helpful for mobfarms.
   tick-new-entities: true
   # Enables vertical range checks. By default, activation ranges only work horizontally.
   # This can greatly improve performance on taller worlds, but might break a few very specific ai-based mobfarms.
-  use-vertical-range: false
+  use-vertical-range: true
   # Skips 1/4th of entity ticks whilst not immune.
   # This affects entities that are within the activation range, but not immune (for example by falling or being in water).
-  skip-non-immune: false
+  skip-non-immune: true
   # Allows villagers to tick regardless of the activation range when panicking.
   villager-tick-panic: true
   # The time in seconds that a villager needs to be inactive for before obtaining work immunity (if it has work tasks).
@@ -249,9 +249,9 @@ activation-range:
   # ► extra-height-up = Allows entities to be ticked when far above the player when vertical range is in use.
   # ► extra-height-down = Allows entities to be ticked when far below the player when vertical range is in use.
   default-activation-type:
-    activation-range: 16
+    activation-range: 12
     tick-interval: 20
-    wakeup-interval: -1
+    wakeup-interval: 60
     extra-height-up: false
     extra-height-down: false
 
@@ -264,31 +264,28 @@ activation-range:
   # ► Available typeof classes: mob, monster, raider, neutral, ambient, animal, water_animal, flying_animal, flying_monster, villager, projectile.
   custom-activation-types:
     - name: 'raider'
-      activation-range: 48
+      activation-range: 40        # was 48
       tick-interval: 20
       wakeup-interval: 20
       extra-height-up: true
       extra-height-down: false
-      entity-matcher:
-        - 'typeof:raider'
+      entity-matcher: ['typeof:raider']
 
     - name: 'water'
-      activation-range: 16
-      tick-interval: 20
+      activation-range: 12        # was 16
+      tick-interval: 40           # was 20 (aggressive)
       wakeup-interval: 60
       extra-height-up: false
       extra-height-down: false
-      entity-matcher:
-        - 'typeof:water_animal'
+      entity-matcher: ['typeof:water_animal']
 
     - name: 'villager'
       activation-range: 16
-      tick-interval: 20
+      tick-interval: 30           # was 20
       wakeup-interval: 30
       extra-height-up: false
       extra-height-down: false
-      entity-matcher:
-        - 'typeof:villager'
+      entity-matcher: ['typeof:villager']
 
     - name: 'zombie'
       activation-range: 16
@@ -296,56 +293,44 @@ activation-range:
       wakeup-interval: 20
       extra-height-up: true
       extra-height-down: false
-      entity-matcher:
-        - 'minecraft:zombie'
-        - 'minecraft:husk'
+      entity-matcher: ['minecraft:zombie', 'minecraft:husk']
 
     - name: 'monster-below'
-      activation-range: 32
+      activation-range: 24        # was 32
       tick-interval: 20
       wakeup-interval: 20
       extra-height-up: true
       extra-height-down: true
-      entity-matcher:
-        - 'minecraft:creeper'
-        - 'minecraft:slime'
-        - 'minecraft:magma_cube'
-        - 'minecraft:hoglin'
+      entity-matcher: ['minecraft:creeper','minecraft:slime','minecraft:magma_cube','minecraft:hoglin']
 
     - name: 'flying-monster'
-      activation-range: 48
+      activation-range: 40        # was 48
       tick-interval: 20
       wakeup-interval: 20
       extra-height-up: true
       extra-height-down: false
-      entity-matcher:
-        - 'minecraft:ghast'
-        - 'minecraft:phantom'
+      entity-matcher: ['minecraft:ghast','minecraft:phantom']
 
     - name: 'monster'
-      activation-range: 32
+      activation-range: 24        # was 32
       tick-interval: 20
       wakeup-interval: 20
       extra-height-up: true
       extra-height-down: false
-      entity-matcher:
-        - 'typeof:monster'
+      entity-matcher: ['typeof:monster']
 
     - name: 'animal'
-      activation-range: 16
-      tick-interval: 20
+      activation-range: 10        # was 16 (aggressive; helps passive farms/load)
+      tick-interval: 40           # was 20
       wakeup-interval: 60
       extra-height-up: false
       extra-height-down: false
-      entity-matcher:
-        - 'typeof:animal'
-        - 'typeof:ambient'
+      entity-matcher: ['typeof:animal','typeof:ambient']
 
     - name: 'creature'
-      activation-range: 24
-      tick-interval: 20
+      activation-range: 16        # was 24
+      tick-interval: 30           # was 20
       wakeup-interval: 30
       extra-height-up: false
       extra-height-down: false
-      entity-matcher:
-        - 'typeof:mob'
+      entity-matcher: ['typeof:mob']

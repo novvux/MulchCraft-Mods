@@ -1,0 +1,59 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "amount": 35,
+      "aspect": "thaumaturge:metallum"
+    },
+    {
+      "amount": 35,
+      "aspect": "thaumaturge:praemunio"
+    },
+    {
+      "amount": 25,
+      "aspect": "thaumaturge:potentia"
+    },
+    {
+      "amount": 25,
+      "aspect": "thaumaturge:alienis"
+    },
+    {
+      "amount": 35,
+      "aspect": "thaumaturge:vacuos"
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:void_chest"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:cloth_chest"
+    },
+    {
+      "tag": "c:plates/void_metal"
+    },
+    {
+      "tag": "c:plates/void_metal"
+    },
+    {
+      "item": "thaumaturge:salis_mundus"
+    },
+    {
+      "item": "thaumaturge:fabric"
+    },
+    {
+      "tag": "c:leathers"
+    },
+    {
+      "item": "kubejs:etherium_spirit_alloy"
+    }
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "thaumaturge:void_robe_armor"
+  },
+  "result": {
+    "count": 1,
+    "id": "thaumaturge:void_robe_chest"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "amount": 75,
+      "aspect": "thaumaturge:terra"
+    },
+    {
+      "amount": 75,
+      "aspect": "thaumaturge:instrumentum"
+    },
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:perditio"
+    },
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:vacuos"
+    },
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:aversio"
+    },
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:alienis"
+    },
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:desiderium"
+    }
+  ],
+  "catalyst": {
+    "item": "thaumaturge:primordial_pearl"
+  },
+  "components": [
+    {
+      "item": "thaumaturge:void_pickaxe"
+    },
+    {
+      "item": "thaumaturge:void_shovel"
+    },
+    {
+      "item": "thaumaturge:elemental_pickaxe"
+    },
+    {
+      "item": "thaumaturge:elemental_shovel"
+    },
+    {
+      "item": "kubejs:etherium_spirit_alloy"
+    }
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaturge:primal_crusher"
+  },
+  "result": {
+    "components": {
+      "thaumaturge:infusion_enchantments": {
+        "destructive": 1,
+        "refining": 1
+      }
+    },
+    "count": 1,
+    "id": "thaumaturge:primal_crusher"
+  }
+}

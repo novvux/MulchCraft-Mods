@@ -1,0 +1,139 @@
+flowchart TB
+  classDef gate fill:#ffedd5,stroke:#ea580c,color:#111827,stroke-width:2px;
+  classDef mod fill:#e0f2fe,stroke:#0284c7,color:#111827;
+  classDef key fill:#dcfce7,stroke:#16a34a,color:#111827;
+  classDef equip fill:#f3e8ff,stroke:#9333ea,color:#111827;
+  classDef boss fill:#fee2e2,stroke:#dc2626,color:#111827;
+  classDef note fill:#f8fafc,stroke:#94a3b8,color:#334155,stroke-dasharray: 4 3;
+
+  subgraph C1["CH. 1 — STONE AGE (no alloy gate) | Researched: Create, Botania, Thaumaturge, Ad Astra prep, Mekanism prep"]
+    direction TB
+    G1["GATE: Stone/Iron established<br/>Goal: produce first Alloy Infused via any bridge<br/>(vanilla/IE/Create/Botania/Thaumaturge)"]:::gate
+
+    M1A["Create (+Aeronautics prep)"]:::mod
+    K1A["Key: Andesite Alloy, Water Wheel/Windmill, Millstone, Mechanical Press, Encased Fan, Depot/Belt, Hand Crank, Cogwheels"]:::key
+    E1A["Equipment: Copper Backtank + Diving Helmet/Boots, Goggles, Wrench, early Aeronautics parts only as non-flight décor/components if accessible"]:::equip
+
+    M1B["Botania (+ExtraBotany seeds)"]:::mod
+    K1B["Key: Mystical Flowers/Petals, Petal Apothecary, Pure Daisy, Livingwood/Livingrock, Mana Pool/Spreader, Wand of the Forest, Mana Tablet"]:::key
+    E1B["Equipment: Manasteel tools/weapons (early), Manaweave/Manasteel armor start, Band of Mana (if affordable), botanical brews utility"]:::equip
+
+    M1C["Thaumaturge (Thaumcraft 6 port)"]:::mod
+    K1C["Key: Thaumonomicon/Salis Mundus path, Arcane Workbench, Crucible, Thaumometer, Vis Crystals/Phials, Thaumium prospects"]:::key
+    E1C["Equipment: Thaumium tools/armor *only if bridge resources permit*; Goggles of Revealing; basic Caster's Gauntlet/focus practice"]:::equip
+
+    M1D["Ad Astra + Mekanism (prep only)"]:::mod
+    K1D["Key: Coal Generator/Fuel refining prep, Steel/plates path (IE/TFMG/Create context), Osmium/ore scouting; Ad Astra Compressor/NASA Workbench materials gathered but not rushed"]:::key
+    E1D["Equipment: Hammer/wrench basics, basic radiation/hazard awareness; NO space suit flight yet"]:::equip
+
+    N1["Softlock guard: every Ch.1 mod progresses with overworld stone/iron/copper/zinc/flowers/crystals. No boss required."]:::note
+  end
+
+  subgraph C2["CH. 2 — INFUSED ERA (gate: Alloy Infused) | Researched: Mekanism, Create, PSI, Ad Astra, Botania, Thaumaturge"]
+    direction TB
+    G2["GATE: mekanism:alloy_infused<br/>Unlocks: Metallurgic Infuser line, basic Mek machines tier, infused-gated frames/components"]:::gate
+
+    M2A["Mekanism"]:::mod
+    K2A["Key: Metallurgic Infuser, Enrichment Chamber, Energized Smelter, Crusher, Basic Energy Cube/Universal Cable, Basic Fluid/Item transport, Steel Casing uses"]:::key
+    E2A["Equipment: Free Runners/Jetpack alternatives *disabled in this pack per spec*; use Hazmat Suit (utility), Configurator, Network Reader, Paxel only if not overpowered by pack rules"]:::equip
+
+    M2B["Create (+Aeronautics early utility)"]:::mod
+    K2B["Key: Mechanical Mixer, Basin, Blaze Burner, Steam Engine, Deployer, Mechanical Crafter (small), Train basics; Aeronautics: simple flight experiments gated by brass/precision later"]:::key
+    E2B["Equipment: Extendo Grip, Potato Cannon (controlled), Netherite Diving Gear later prep, Aeronautics glider/airship components — **gate full flight** behind brass+blaze burner stability"]:::equip
+
+    M2C["PSI"]:::mod
+    K2C["Key: CAD Assembler, Spell Programmer, Psimetal/Ivory/Ebony material path, CAD components (assembly/socket/battery), basic spell bullets"]:::key
+    E2C["Equipment: Basic CAD, Psimetal tools/armor (mid utility), Vector Ruler, Spell Drive — **gate high-damage loops** by Psimetal cost and programming literacy, not boss drops"]:::equip
+
+    M2D["Ad Astra"]:::mod
+    K2D["Key: Coal Generator, Compressor, NASA Workbench, Fuel Refinery, Launch Pad, Tier 1 Rocket; oxygen setup"]:::key
+    E2D["Equipment: Space Suit, Oxygen Gear/Tanks, Rover (optional). **Gate:** Tier 1 Rocket requires steel/tech infra + Fuel; Moon access is allowed but treat cheese/Desh as Ch.2-3 resources"]:::equip
+    B2D["Boss/Hard gate: Survive Moon environment (oxygen/fuel logistics), not a boss drop"]:::boss
+
+    M2E["Botania / Thaumaturge"]:::mod
+    K2E["Key: Runic Altar, Botania Runes, Brewery, Mana Lenses; Thaumaturge Infusion Altar basics, Essentia Smelting, better foci"]:::key
+    E2E["Equipment: Manasteel/Thaumium full utility sets, Baubles (Band of Aura/Mana), Traveller's Belt/Knockback Belt equivalents — keep mobility modest"]:::equip
+
+    N2["Softlock guard: Infused Alloy has 5+ bridges (Mek Infuser, Create mixing, vanilla, IE, Botania, Thauma). Ad Astra Moon does not require boss kills."]:::note
+  end
+
+  subgraph C3["CH. 3 — REINFORCED ERA (gate: Alloy Reinforced) | Researched: Astral Sorcery, Apotheosis, Malum, Deeper & Darker, Cataclysm (early), Botania/ExtraBotany"]
+    direction TB
+    G3["GATE: mekanism:alloy_reinforced<br/>Unlocks: Advanced machines, reinforced-gated combat/utility, stronger cross-mod crafts"]:::gate
+
+    M3A["Astral Sorcery"]:::mod
+    K3A["Key: Luminous Crafting Table, Resonating Wand, Lightwell, Starlight Crafting Altar upgrades, Rock/Crystal tools, Attunement path, Celestial Gateway"]:::key
+    E3A["Equipment: Crystal tools/weapons (tuned), Mantle of Stars (if available), Resplendent Prism perks — **gate attunement perks/celestial crystals** by starlight infrastructure & exploration"]:::equip
+
+    M3B["Apotheosis"]:::mod
+    K3B["Key: Enchanting overhaul (Seashelf/Hellshelf/etc. progression), Gem cutting/fusing, Reforging Table, Salvaging Table, Apotheotic affix gear management"]:::key
+    E3B["Equipment: Affix weapons/armor (curated rarity), Potion Charms, gem-socketed gear — **gate top-tier affixes/godforged-level rolls** behind rare materials + boss loot tiers"]:::equip
+    B3B["Gate: High-tier reforging/gems require dungeon/boss-sourced materials; do not allow early mythic snowball"]:::boss
+
+    M3C["Malum (optional branch, fully viable)"]:::mod
+    K3C["Key: Spirit Altar, Runewood/Soulwood, Soulstone/Soulstained Steel, Spirit Jars, Ether, Spirit Crucible (if reached), Totem magic basics"]:::key
+    E3C["Equipment: Soulstained Steel/Tyrving-tier gear progression, Scythes, Spirit-augmented curios — **gate malignant/umbric endgame** to Ch.4+ spirits/boss materials"]:::equip
+
+    M3D["Deeper and Darker"]:::mod
+    K3D["Key: Deep Dark access, Sculk-related materials, Echo Shards, Reinforced Echo Shard, Warden armor/tools path, Otherside portal prep"]:::key
+    E3D["Equipment: Warden/Resonarium-adjacent utility as available; Sculk Transmitter/Soul Elytra-like items only if mod version supports and appropriately gated"]:::equip
+    B3D["HARD GATE: Warden kill / Ancient City loot (Echo Shards, Silence armor trims context) required for Reinforced Echo Shard & top D&D gear"]:::boss
+
+    M3E["Cataclysm (early/mid bosses) + Botania/ExtraBotany"]:::mod
+    K3E["Key: Cataclysm structures (Overworld/Nether), boss tokens/materials; Botania Gaia Pylon, Terrasteel, Elven Gateway prep; ExtraBotany Spirit Fuel/early relic path"]:::key
+    E3E["Equipment: Cataclysm boss drops (e.g., Infernal Forge/Monstrous weapons/materials as version allows) — **gate each to its boss**; Botania Elementium/Terrasteel gear; Gaia Guardian rewards"]:::equip
+    B3E["HARD GATES: Gaia Guardian I/II for Terrasteel/Gaia Spirits/Dice loot; Cataclysm bosses (Netherite Monstrosity/Ignis/others per structure) for their unique weapons"]:::boss
+
+    N3["Softlock guard: Reinforced Alloy has vanilla/IE/Botania/Create bridges. D&D/Cataclysm are optional combat branches; none required to craft Atomic Alloy. Warden/Gaia/Cataclysm only gate their own loot lines."]:::note
+  end
+
+  subgraph C4["CH. 4 — ATOMIC ERA (gate: Atomic Alloy) | Researched: Mekanism endgame, Ad Astra, Cataclysm, Enigmatic Legacy, ExtraBotany, Deeper & Darker, Apotheosis"]
+    direction TB
+    G4["GATE: mekanism:alloy_atomic + refined obsidian path<br/>Unlocks: Elite/Ultimate machine components (by design), atomic-gated apex crafts, deep-space tiers"]:::gate
+
+    M4A["Mekanism (endgame tech)"]:::mod
+    K4A["Key: Chemical Infuser/Oxidizer/Dissolution/Washer/Crystallizer chain, Thermal Evaporation, Solar Neutron Activator/Isotopic Centrifuge (as needed), Teleporter, QIO or Digital Miner path; Fission prep (careful)"]:::key
+    E4A["Equipment: Meka-Tool/Suit **remain disabled** in this pack; use elite logistical tools, Radiation Suit, flamethrower/scuba only if balanced; Atomic Disassembler stays removed"]:::equip
+
+    M4B["Ad Astra (Tier 2–4)"]:::mod
+    K4B["Key: Desh/Ostrum/Calorite progression, Tier 2-4 Rockets, Cryo Freezer, Oxygen Distributor, space stations/dungeons loot"]:::key
+    E4B["Equipment: Netherite Space Suit / Jet Suit (version-dependent), reinforced oxygen systems — **gate each tier** to previous planet resources + rocket tier"]:::equip
+    B4B["HARD GATE: Mars/Venus/Glacio dungeon progression and planetary resource acquisition; no skip from Moon to Tier 4"]:::boss
+
+    M4C["Cataclysm (endgame) + Enigmatic Legacy (+)"]:::mod
+    K4C["Key: Endgame Cataclysm altars/structures (Ender Guardian, Leviathan, Ancient Remnant, Harbinger, etc. per 1.21.1 mod content), rare drops; Enigmatic Legacy+ spellstones, curses, endgame relic crafting"]:::key
+    E4C["Equipment: Cataclysm ultimate weapons (e.g., Gauntlet of Guard, Tidal Claws, Incinerator analogs as available) — **strictly boss-gated**; Enigmatic Legacy+ charms/rings/scrolls, spellstones (powerful = dungeon/boss/crafting gates)"]:::equip
+    B4C["HARD GATES: Ender Dragon/Nether/End access as relevant + specific Cataclysm bosses; Enigmatic high-tier items require dangerous loot/cursed choices"]:::boss
+
+    M4D["ExtraBotany + Deeper & Darker + Apotheosis"]:::mod
+    K4D["Key: ExtraBotany Gaia III/relic materials, Orichalcos, Aerialite/Shadowium/Photonium lines; D&D Otherside/warden apex; Apotheosis mythic reforging/sigils (controlled)"]:::key
+    E4D["Equipment: ExtraBotany relic weapons/armor sets, D&D warden gear upgrades, Apotheosis-endgame affix optimization — **gate relics** behind Gaia Guardian III / boss tokens and rare mana infrastructure"]:::equip
+    B4D["HARD GATES: Gaia Guardian III (ExtraBotany), Warden/Deep Dark mastery, Wither/Ender Dragon for Nether Stars & apotheotic components where used"]:::boss
+
+    N4["Softlock guard: Atomic Alloy reachable via Mek chain OR vanilla/IE/Botania refined-obsidian bridges (see bridges.js). Cataclysm/Enigmatic/ExtraBotany boss gates are parallel; failing one branch never blocks Atomic-tier crafting in another."]:::note
+  end
+
+  subgraph C5["CH. 5 — BONUS / STELLAR APEX (post-Atomic) | Researched: ALL mods culminate"]
+    direction TB
+    G5["BONUS GATE: Post-Atomic mastery<br/>Finale objective: assemble cross-mod apex components<br/>(pack may use Stellar Remote / equivalent finale craft)"]:::gate
+
+    M5A["Cross-mod Apex Crafting"]:::mod
+    K5A["Key: Ultimate Crafting Table (Extended Crafting, 9-wide), cross-branch apex components: Nether Star, Refined Obsidian, Precision Mechanism, Graphite Electrode, Primordial Pearl, Aerialite, Godforged/Apotheosis apex, Cataclysm/Ad Astra trophies as applicable"]:::key
+    E5A["Equipment: Best-in-slot mix — no single mod trivializes all content; MekaSuit/Atomic Disassembler remain banned"]:::equip
+
+    M5B["Mekanism + Create + Ad Astra"]:::mod
+    E5B["Equipment/Systems: Fusion/SPS-scale infrastructure (expert use), maxed factories/logistics, Create contraption logistics, Ad Astra Jet Suit/planetary network — utility apex, not combat auto-win"]:::equip
+
+    M5C["Botania/ExtraBotany + Thaumaturge + PSI"]:::mod
+    E5C["Equipment: ExtraBotany top relics (Star Wrath/Rhein Hammer-style apex where present), Terrasteel/Elementium end builds, Thaumaturge Void/Primordial/Caster apex, PSI endgame CADs — **gate by rare boss/mana/research costs**"]:::equip
+    B5C["HARD GATES: Gaia Guardian III, Endgame Thaumaturge research/eldritch materials, PSI materials; Nether Stars/Dragon/Wither/Cataclysm trophies as recipe inputs"]:::boss
+
+    M5D["Astral Sorcery + Malum + Deeper & Darker + Cataclysm + Enigmatic Legacy + Apotheosis"]:::mod
+    E5D["Equipment: Attuned Celestial/Resplendent Astral gear, Malum Umbral/Malignant apex (optional), D&D Warden apex, Cataclysm final boss weapons, Enigmatic Legacy+ ultimate spellstones/cursed builds, perfected Apotheosis affix sets"]:::equip
+    B5D["HARD GATES: Full boss ladder (Cataclysm end bosses, Warden, Gaia III, Wither/Dragon), rare dungeon loot, high starlight/spirit/mana investment"]:::boss
+
+    FIN["BONUS FINALE: Craft/activate the pack's Stellar finale item (cross-branch).<br/>Victory condition = completion of multi-mod mastery, not one exploit."]:::boss
+    N5["Softlock guard: bonus chapter is optional mastery; main alloy progression already complete at Ch.4 gate. Every finale component has an alternate branch route or is globally obtainable (Nether Star, Dragon, bosses)."]:::note
+  end
+
+  G1 --> G2 --> G3 --> G4 --> G5 --> FIN
