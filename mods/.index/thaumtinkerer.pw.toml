@@ -1,0 +1,21 @@
+filename = 'thaumaturge_tinkerer-1.21.1-0.2.1-alpha.jar'
+name = 'Thaumaturge Tinkerer (Thaumic Tinkerer)'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'thaumaturge_tinkerer-1.21.1-0.2.1-alpha.jar'
+
+[download]
+hash = 'db3fe52a7581d0cbe36fcd786d50000eeac01d64'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9527250
+project-id = 1793843
+
+[[x-prismlauncher-dependencies]]
+addonId = '1628024'
+type = 'REQUIRED'
