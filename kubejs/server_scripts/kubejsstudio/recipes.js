@@ -10,6 +10,7 @@ ServerEvents.generateData('after_mods', event => {
     event.json('enigmaticlegacyplus:recipe/etherium_scythe', {"type":"minecraft:crafting_shaped","category":"equipment","pattern":["#A"," B"," B"],"key":{"#":{"item":"enigmaticlegacyplus:etherium_ingot"},"A":{"item":"mekanism:alloy_atomic"},"B":{"item":"enigmaticlegacyplus:ender_rod"}},"result":{"id":"enigmaticlegacyplus:etherium_scythe","count":1}})
     event.json('malum:recipe/soulbinding_brazier', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#","BCB","DBD"],"key":{"#":{"item":"malum:hallowed_gold_ingot"},"A":{"item":"malum:cthonic_gold"},"B":{"tag":"malum:runewood_planks"},"C":{"item":"mekanism:alloy_reinforced"},"D":{"item":"malum:tainted_rock"}},"result":{"id":"malum:soulbinding_brazier","count":1}})
     event.json('mekanism:recipe/metallurgic_infuser', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#","BCB","#D#"],"key":{"#":{"tag":"c:ingots/iron"},"A":{"item":"minecraft:furnace"},"B":{"tag":"c:dusts/redstone"},"C":{"tag":"c:ingots/osmium"},"D":{"item":"create:precision_mechanism"}},"result":{"id":"mekanism:metallurgic_infuser","count":1}})
+    event.json('botania:recipe/apothecary_default', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#"," # ","#B#"],"key":{"#":{"item":"minecraft:cobblestone"},"A":{"tag":"botania:petals"},"B":{"item":"mekanism:alloy_infused"}},"result":{"id":"botania:apothecary_default","count":1}})
 })
 ServerEvents.recipes(event => {
     event.remove({ id: 'create:crafting/materials/andesite_alloy' })

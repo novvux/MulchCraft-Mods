@@ -18,14 +18,21 @@
 	quest.49E5F54687269304.title: "Простая энергия"
 	quest.4EAF3EF5587CB404.quest_subtitle: "КУБЫ."
 	quest.507FF0022053C1A6.quest_subtitle: "Печка Ускорятус!"
+	quest.569A9056DC779851.quest_desc: ["81 банка вмещает около 103 тысяч предметов"]
+	quest.569A9056DC779851.quest_subtitle: "Придётся подумать"
+	quest.569A9056DC779851.title: "Базовое хранилище"
 	quest.571BBA1A63A452A4.quest_subtitle: "Лучше подумать, прежде чем надевать"
 	quest.571BBA1A63A452A4.title: "Забавное колечко"
+	quest.59AA1DB7BD81F72E.quest_subtitle: "Увеселительные процедуры"
+	quest.5A0F4383C6D1EE5E.quest_subtitle: "Точно?"
 	quest.5DCF18A067400EF1.quest_subtitle: "Инструмент в одну руку, дух в другую"
 	quest.5DCF18A067400EF1.title: "Квампы для нищих"
+	quest.5DD933E869B5F246.title: "Немного автоматизации"
 	quest.6147419F33351732.title: "Дешёвый андезит"
 	quest.6ACDF80B0AE3A038.quest_subtitle: "Рундук не нужен"
 	quest.6ACDF80B0AE3A038.title: "Руноделие"
 	quest.6B10084F39DDD04F.title: "Таумономономотургия"
+	quest.770E9583CA4A406D.quest_desc: ["Я тоже не знаю"]
 	quest.770E9583CA4A406D.quest_subtitle: "Вы знаете где вы?"
 	quest.770E9583CA4A406D.title: "Приём"
 	quest.7AB880048F5B2B78.quest_subtitle: "Генератор ресурсов"
@@ -33,4 +40,5 @@
 	task.0C906E8EE42C93F1.title: "Незер"
 	task.521FD719C56FB1DD.title: "Any #comforts:sleeping_bags"
 	task.59F474A58FEE0C66.title: "Any #thaumaturge:vis_crystals"
+	task.5D22B4B05E399377.title: "Any #create:seats"
 }

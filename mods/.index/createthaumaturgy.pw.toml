@@ -1,25 +1,25 @@
-filename = 'create_thaumaturgy-1.21.1-0.9.0.jar'
+filename = 'create_thaumaturgy-1.21.1-0.10.0.jar'
 name = 'Create: Thaumaturgy'
 side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = 'create_thaumaturgy-1.21.1-0.9.0.jar'
+x-prismlauncher-version-number = 'create_thaumaturgy-1.21.1-0.10.0.jar'
 
 [download]
-hash = '9aabd357b60d41c1423bdb6d71e7edbfce6433a5'
+hash = '880cde8f30abeaea385a534520ddaf7aebf641b6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 9509436
+file-id = 9548923
 project-id = 1741015
 
 [[x-prismlauncher-dependencies]]
-addonId = '1628024'
+addonId = '328085'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = '328085'
+addonId = '1628024'
 type = 'REQUIRED'

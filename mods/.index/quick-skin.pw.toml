@@ -1,20 +1,20 @@
-filename = 'Quick Skin - NeoForge - 1.21.1-4.0.0.jar'
+filename = 'Quick Skin - NeoForge - 1.21.1-4.1.0.jar'
 name = 'Quick Skin'
 side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'mc1.21.1-v4.0.0-neoforge-1.21.1'
+x-prismlauncher-version-number = 'mc1.21.1-v4.1.0-neoforge'
 
 [download]
-hash = '887ef786df2f0fd998a750568e43f8d87b3acd5ab53f9c31922ea74021b98526aa70ad42f48f89466637829ab643611b9cabf37c86c6869cc8423be61f973885'
+hash = '5a6af5c790a00da27a4e2807f44922f0f76ef62e5a4091ad2cd0099ad9b2317195f32a51c0e7001b19e6486d0129ad9f0ebe5f6450788f1c080cd52b81f0f1d9'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/zAIE84Ch/versions/BCgTWH2B/Quick Skin - NeoForge - 1.21.1-4.0.0.jar'
+url = 'https://cdn.modrinth.com/data/zAIE84Ch/versions/3gK7IFL1/Quick Skin - NeoForge - 1.21.1-4.1.0.jar'
 
 [update.modrinth]
 mod-id = 'zAIE84Ch'
-version = 'BCgTWH2B'
+version = '3gK7IFL1'
 
 [[x-prismlauncher-dependencies]]
 addonId = 'lhGA9TYQ'

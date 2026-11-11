@@ -7,5 +7,16 @@
 	images: [ ]
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["30923A62354948DE"]
+		id: "4B5D57FE7AEDCE0B"
+		size: 1.5d
+		tasks: [{
+			id: "4AEFD3A0E3FBE146"
+			item: { count: 1, id: "botania:apothecary_default" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
 }

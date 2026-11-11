@@ -239,6 +239,7 @@
 					type: "item"
 				}
 				{
+					count: 2L
 					id: "195B67381940BFE9"
 					item: { count: 1, id: "thaumaturge:alembic" }
 					type: "item"
@@ -294,6 +295,7 @@
 		}
 		{
 			dependencies: ["279C4DF909031B0A"]
+			hide_dependent_lines: true
 			id: "1BA6DC5E1B1181B0"
 			tasks: [{
 				id: "25572E7873E2011E"
@@ -302,41 +304,6 @@
 			}]
 			x: 7.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["4EAF3EF5587CB404"]
-			id: "5A5557A12C740CAE"
-			shape: "gear"
-			size: 1.5d
-			tasks: [{
-				id: "43233EC135690D5E"
-				item: { components: { "thaumaturge:aspects": [{ amount: 10, aspect: "thaumaturge:praecantatio" }] }, count: 1, id: "thaumaturge:phial" }
-				type: "item"
-			}]
-			x: 12.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5A5557A12C740CAE"]
-			id: "1746F0987FB47D4D"
-			tasks: [{
-				id: "77A93FAB8B5FC91C"
-				item: { count: 1, id: "botania:pure_daisy" }
-				type: "item"
-			}]
-			x: 14.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4556E6AB5B8619F8"]
-			id: "504734E875FF2655"
-			tasks: [{
-				id: "6B7588D4BEC28E7D"
-				item: { count: 1, id: "create:iron_sheet" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["770E9583CA4A406D"]
@@ -678,7 +645,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["45E15016604647EE"]
+			dependencies: [
+				"45E15016604647EE"
+				"4403316A1AE73834"
+			]
 			id: "5A0F4383C6D1EE5E"
 			size: 1.5d
 			tasks: [{
@@ -686,7 +656,7 @@
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -699,6 +669,164 @@
 			}]
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["7E64C25F50DAEB56"]
+			hide_until_deps_complete: true
+			id: "59AA1DB7BD81F72E"
+			tasks: [{
+				id: "732D0E7E55E7ED42"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4556E6AB5B8619F8"]
+			hide_until_deps_complete: true
+			id: "569A9056DC779851"
+			tasks: [
+				{
+					count: 27L
+					id: "36C61D667D07FE0C"
+					item: { count: 1, id: "create:item_vault" }
+					type: "item"
+				}
+				{
+					id: "641A2CFD42B5EB11"
+					item: { count: 1, id: "create:stock_ticker" }
+					type: "item"
+				}
+				{
+					id: "5D22B4B05E399377"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(create:seats)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "033F0CB539A9A50F"
+					item: { count: 1, id: "create:packager" }
+					type: "item"
+				}
+				{
+					id: "137C2904E3FF215D"
+					item: { count: 1, id: "create:stock_link" }
+					type: "item"
+				}
+				{
+					id: "6F33D134D62D8FEB"
+					item: { count: 1, id: "create:chute" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A0F4383C6D1EE5E"]
+			id: "40810C72738521A2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "05D2B5540DD30C4D"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BA6DC5E1B1181B0"]
+			hide_until_deps_complete: true
+			id: "4C6B3AF5DA5A3357"
+			tasks: [
+				{
+					id: "346BFF35DA47989F"
+					item: { count: 1, id: "thaumaturge:thaumium_helm" }
+					type: "item"
+				}
+				{
+					id: "4DE131F7EBBB20F7"
+					item: { count: 1, id: "thaumaturge:thaumium_chest" }
+					type: "item"
+				}
+				{
+					id: "1890689E8657164C"
+					item: { count: 1, id: "thaumaturge:thaumium_legs" }
+					type: "item"
+				}
+				{
+					id: "13E44D18EBFE020A"
+					item: { count: 1, id: "thaumaturge:thaumium_boots" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1BA6DC5E1B1181B0"]
+			hide_until_deps_complete: true
+			id: "048995CAD7E67E0B"
+			tasks: [
+				{
+					id: "76622854947D490E"
+					item: { count: 1, id: "thaumaturge:thaumium_sword" }
+					type: "item"
+				}
+				{
+					id: "1D6DA720C8C890BB"
+					item: { count: 1, id: "thaumaturge:thaumium_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "47D1D8C1C01C3EB7"
+					item: { count: 1, id: "thaumaturge:thaumium_axe" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["279C4DF909031B0A"]
+			id: "5DD933E869B5F246"
+			tasks: [{
+				count: 2L
+				id: "4243FD0760AC7833"
+				item: { count: 1, id: "thaumaturge:alchemical_construct" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"40810C72738521A2"
+				"1BA6DC5E1B1181B0"
+			]
+			id: "30923A62354948DE"
+			size: 1.5d
+			tasks: [{
+				id: "4B604E229AE0D38F"
+				item: { count: 1, id: "mekanism:alloy_infused" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			hide_dependency_lines: true
+			id: "027A6A8047A22276"
+			tasks: [{
+				id: "12211A6964D09306"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 }
