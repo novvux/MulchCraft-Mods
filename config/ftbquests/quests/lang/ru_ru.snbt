@@ -2,8 +2,11 @@
 	chapter.077E670676E8486D.title: "Первая"
 	chapter.1ACBE64D100FCB11.title: "Вторая"
 	quest.0278FB92507CB823.quest_subtitle: "Духи добавлять после выкладки рецепта"
+	quest.027A6A8047A22276.quest_subtitle: "Показывает урон"
 	quest.1034DE724F5338AB.quest_subtitle: "Залог успеха"
 	quest.1034DE724F5338AB.title: "Здоровый сон"
+	quest.11232C760AB12CD6.quest_desc: ["Теперь вы получаете здоровье на время при съедении продуктов. Чем сытнее еда - тем больше здоровья."]
+	quest.11232C760AB12CD6.title: "Еда"
 	quest.275ECBF92D0C45F6.title: "Простая сумка"
 	quest.279C4DF909031B0A.title: "Простая алхимия"
 	quest.315DBC42F06E875B.quest_subtitle: "Как в старые добрые."
@@ -16,6 +19,8 @@
 	quest.430A386CF9ACF45A.quest_subtitle: "Чинит вещи на пьедесталах "
 	quest.45E15016604647EE.quest_subtitle: "Рекомендуется небольшое число автоматизаций"
 	quest.49E5F54687269304.title: "Простая энергия"
+	quest.4D373C6CCAA185EA.quest_desc: ["Вы можете показать свой предмет в чате используя сочетание клавиш Shift+T на предмете в инвентаре"]
+	quest.4D373C6CCAA185EA.title: "Показ предметов"
 	quest.4EAF3EF5587CB404.quest_subtitle: "КУБЫ."
 	quest.507FF0022053C1A6.quest_subtitle: "Печка Ускорятус!"
 	quest.569A9056DC779851.quest_desc: ["81 банка вмещает около 103 тысяч предметов"]
@@ -41,4 +46,5 @@
 	task.521FD719C56FB1DD.title: "Any #comforts:sleeping_bags"
 	task.59F474A58FEE0C66.title: "Any #thaumaturge:vis_crystals"
 	task.5D22B4B05E399377.title: "Any #create:seats"
+	task.7917FA7089ECABCF.title: "Показ предметов"
 }

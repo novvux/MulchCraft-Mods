@@ -1,4 +1,6 @@
 ServerEvents.recipes(event => {
+  event.json('botania:recipe/apothecary_default', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#"," # ","#B#"],"key":{"#":{"item":"minecraft:cobblestone"},"A":{"tag":"botania:petals"},"B":{"item":"mekanism:alloy_infused"}},"result":{"id":"botania:apothecary_default","count":1}})
+
   event.recipes.thaumaturge.infusion(
     'extrabotany:pleiades_combat_maid_headgear',
     'botania:terrasteel_helmet',

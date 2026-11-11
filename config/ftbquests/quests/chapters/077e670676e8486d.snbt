@@ -828,5 +828,36 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			id: "4D373C6CCAA185EA"
+			tasks: [{
+				id: "7917FA7089ECABCF"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["770E9583CA4A406D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "farmersdelight:cooking_pot"
+			}
+			id: "11232C760AB12CD6"
+			tasks: [
+				{
+					id: "4E04AF7DF0B3B227"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					type: "item"
+				}
+				{
+					id: "7D413C867F547C6E"
+					item: { count: 1, id: "minecraft:campfire" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.0d
+		}
 	]
 }
